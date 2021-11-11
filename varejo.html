@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varejo - Natural Webshop</title>
+
+    <!-- Font Awesome 5 CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Link CSS customizado -->
+    <link rel="stylesheet"  href="css/style.css">
+</head>
+<body>
+    
+    <!-- Header -->
+
+    <header class="header">
+        <a href="index.html" class="logo"><i class="fas fa-shopping-basket"></i>Natural <sup>BR</sup></a>
+
+        <nav class="navbar">
+            <a href="index.html">Início</a>
+            <a href="varejo.html">Varejo</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="avaliacoes.html">Avaliações</a>
+            <a href="blog.html">Blog</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+
+        <div class="icones">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="pesquisa-btn" class="fas fa-search"></div>
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+        <form action="" class="form-pesquisa">
+            <input type="search" name="cPesquisa" id="pesquisa" placeholder="Pesquise aqui...">
+            <label for="pesquisa" class="fas fa-search"></label>
+        </form>
+
+        <div class="carrinho">
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="img/cart-1.jpg" alt="Carrinho 01">
+                <div class="conteudo">
+                    <h3>Comida orgânica</h3>
+                    <span class="quantidade">1</span>
+                    <span class="multiplicar">x</span>
+                    <span class="preco">R$18,90</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="img/cart-2.jpg" alt="Carrinho 02">
+                <div class="conteudo">
+                    <h3>Comida orgânica</h3>
+                    <span class="quantidade">1</span>
+                    <span class="multiplicar">x</span>
+                    <span class="preco">R$18,90</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="img/cart-3.jpg" alt="Carrinho 03">
+                <div class="conteudo">
+                    <h3>Comida orgânica</h3>
+                    <span class="quantidade">1</span>
+                    <span class="multiplicar">x</span>
+                    <span class="preco">R$18,90</span>
+                </div>
+            </div>
+
+            <h3 class="total">Total: <span>R$56,70</span></h3>
+            <a href="" class="btn">Finalizar Compra</a>
+        </div>
+
+        <form action="" class="form-login">
+            <h3>Login</h3>
+            <input type="email" name="cEmail" id="email" placeholder="Digite seu e-mail" class="box">
+            <input type="password" name="cSenha" id="senha" placeholder="Digite a sua senha"class="box">
+            <div class="usuario-conectado">
+                <input type="checkbox" name="cCheckbox" id="checkbox">
+                <label for="checkbox">Manter-me Conectado</label>
+            </div>
+            <input type="submit" value="Entrar" class="btn">
+            <p>
+                Esqueceu sua senha? <a href="#">Clique aqui</a>
+            </p>
+            <p>
+                Não possui uma conta? <a href="#">Clique aqui</a>
+            </p>
+        </form>
+
+    </header>
+
+    <div class="heading">
+        <h1>Nosso Varejo</h1>
+        <p><a href="index.html">Início >></a> Varejo</p>
+    </div>
+
+    <!-- Categorias -->
+
+    <section class="categorias">
+
+        <h1 class="title"><span>Categorias</span> <a href="#">&nbsp; Ver todas >></a></h1>
+
+        <div class="box-container">
+            <a href="#" class="box">
+                <img src="img/cat-1.png" alt="Categoria 01">
+                <h3>Frutas Frescas</h3>
+            </a>
+
+            <a href="#" class="box">
+                <img src="img/cat-2.png" alt="Categoria 02">
+                <h3>Vegetais</h3>
+            </a>
+
+            <a href="#" class="box">
+                <img src="img/cat-3.png" alt="Categoria 03">
+                <h3>Especiarias</h3>
+            </a>
+
+            <a href="#" class="box">
+                <img src="img/cat-4.png" alt="Categoria 04">
+                <h3>Carnes Frescas</h3>
+            </a>
+
+            <a href="#" class="box">
+                <img src="img/cat-5.png" alt="Categoria 05">
+                <h3>Trigo Orgânico</h3>
+            </a>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+
+    <section class="produtos">
+       
+        <h1 class="title"><span>Produtos</span> <a href="#">&nbsp; Ver todos >></a></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="icones">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="imagem">
+                    <img src="img/product-1.jpg" alt="Produto 01">
+                </div>
+                <div class="conteudo">
+                    <h3>Comida orgânica</h3>
+                    <div class="preco">R$18,99</div>
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icones">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="imagem">
+                    <img src="img/product-2.jpg" alt="Produto 02">
+                </div>
+                <div class="conteudo">
+                    <h3>Comida orgânica</h3>
+                    <div class="preco">R$18,99</div>
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icones">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="imagem">
+                    <img src="img/product-3.jpg" alt="Produto 03">
+                </div>
+                <div class="conteudo">
+                    <h3>Comida orgânica</h3>
+                    <div class="preco">R$18,99</div>
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icones">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="imagem">
+                    <img src="img/product-4.jpg" alt="Produto 04">
+                </div>
+                <div class="conteudo">
+                    <h3>Comida orgânica</h3>
+                    <div class="preco">R$18,99</div>
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icones">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="imagem">
+                    <img src="img/product-5.jpg" alt="Produto 05">
+                </div>
+                <div class="conteudo">
+                    <h3>Comida orgânica</h3>
+                    <div class="preco">R$18,99</div>
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icones">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="imagem">
+                    <img src="img/product-6.jpg" alt="Produto 06">
+                </div>
+                <div class="conteudo">
+                    <h3>Comida orgânica</h3>
+                    <div class="preco">R$18,99</div>
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icones">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="imagem">
+                    <img src="img/product-7.jpg" alt="Produto 07">
+                </div>
+                <div class="conteudo">
+                    <h3>Comida orgânica</h3>
+                    <div class="preco">R$18,99</div>
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icones">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="imagem">
+                    <img src="img/product-8.jpg" alt="Produto 08">
+                </div>
+                <div class="conteudo">
+                    <h3>Comida orgânica</h3>
+                    <div class="preco">R$18,99</div>
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Links de Atalho</h3>
+                <a href="index.html"><i class="fas fa-arrow-right"></i>Início</a>
+                <a href="varejo.html"><i class="fas fa-arrow-right"></i>Varejo</a>
+                <a href="sobre.html"><i class="fas fa-arrow-right"></i>Sobre Nós</a>
+                <a href="avaliacoes.html"><i class="fas fa-arrow-right"></i>Avaliações</a>
+                <a href="blog.html"><i class="fas fa-arrow-right"></i>Blog</a>
+                <a href="contato.html"><i class="fas fa-arrow-right"></i>Contato</a>
+            </div>
+
+            <div class="box">
+                <h3>Links extras</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>Meus Pedidos</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Lista de Desejos</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Meus Favoritos</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Minha Conta</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Termos e Política</a>
+            </div>
+
+            <div class="box">
+                <h3>Siga-nos</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i>Linked-In</a>
+                <a href="#"><i class="fab fa-pinterest"></i>Pinterest</a>
+            </div>
+
+            <div class="box">
+                <h3>Promoções Diárias</h3>
+                <p>Inscreva-se para receber ofertas e promoções diárias dos nossos produtos!</p>
+                <form action="">
+                    <input type="email" name="cEmail" id="email-marketing" placeholder="Digite seu melhor e-mail">
+                    <input type="submit" value="Inscreva-se" class="btn">
+                </form>
+                <img src="img/payment.png" alt="Pagamentos" class="pagamentos">
+            </div>
+
+        </div>
+
+    </footer>
+
+    <section class="creditos">
+        Copyright &copy; | Criado por <a href="https://github.com/JoaoMarcosProfessional">João Marcos Pro</a>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
